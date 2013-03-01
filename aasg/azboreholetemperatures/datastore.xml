@@ -1,0 +1,14 @@
+<dataStore>
+  <id>DataStoreInfoImpl-52b45d61:13c878efb90:-7ffe</id>
+  <name>azboreholetemperatures</name>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-52b45d61:13c878efb90:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="dbtype">app-schema</entry>
+    <entry key="url">file:workspaces/aasg/azboreholetemperatures/BoreholeTemperature1.xml</entry>
+    <entry key="namespace">http://stategeothermaldata.org/uri-gin/aasg/xmlschema/boreholetemperature/1.5</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
