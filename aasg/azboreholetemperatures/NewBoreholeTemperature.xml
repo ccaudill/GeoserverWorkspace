@@ -60,9 +60,12 @@
 			<attributeMappings>
 				<AttributeMapping>
 					<targetAttribute>aasg:BoreholeTemperature</targetAttribute>
-					<idExpression>
-						<OCQL>strConcat('BT',objectid)</OCQL>
-					</idExpression>
+				<idExpression>
+						<OCQL>getId()</OCQL>
+					</idExpression>  
+			<!--		<sourceExpression>
+						<OCQL>objectid</OCQL>
+					</sourceExpression>  -->
 				</AttributeMapping>
 				<AttributeMapping>
 					<targetAttribute>aasg:ObservationURI</targetAttribute>
@@ -131,7 +134,7 @@
 					</sourceExpression>
 				</AttributeMapping>
 				<AttributeMapping>
-					<targetAttribute>aasg:LeaseNO</targetAttribute>
+					<targetAttribute>aasg:LeaseNo</targetAttribute>
 					<sourceExpression>
 						<OCQL>leaseno</OCQL>
 					</sourceExpression>
@@ -173,7 +176,7 @@
 					</sourceExpression>
 				</AttributeMapping>
 				<AttributeMapping>
-					<targetAttribute>aasg:Function_</targetAttribute>
+					<targetAttribute>aasg:Function</targetAttribute>
 					<sourceExpression>
 						<OCQL>function_</OCQL>
 					</sourceExpression>

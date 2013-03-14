@@ -18,7 +18,7 @@
 			<parameters>
 				<Parameter>
 					<name>dbtype</name>
-					<value>postgis</value>
+					<value>postgisng</value>
 				</Parameter>
 				<Parameter>
 					<name>host</name>
@@ -49,7 +49,7 @@
 	</sourceDataStores>
 	<targetTypes>
 		<FeatureType>
-			<schemaUri>http://schemas.usgin.org/schemas/BoreholeTemperature1.5.xsd</schemaUri>
+			<schemaUri>http://schemas.usgin.org/files/borehole-temperature-observation/1.5/BoreholeTemperature.xsd</schemaUri>
 		</FeatureType>
 	</targetTypes>
 	<typeMappings>
@@ -60,9 +60,12 @@
 			<attributeMappings>
 				<AttributeMapping>
 					<targetAttribute>aasg:BoreholeTemperature</targetAttribute>
-					<idExpression>
-						<OCQL>strConcat('BT',objectid)</OCQL>
-					</idExpression>
+				<idExpression>
+						<OCQL>strConcat('BT', OBJECTID)</OCQL>
+					</idExpression>  
+			<!--		<sourceExpression>
+						<OCQL>objectid</OCQL>
+					</sourceExpression>  -->
 				</AttributeMapping>
 				<AttributeMapping>
 					<targetAttribute>aasg:ObservationURI</targetAttribute>
@@ -131,7 +134,7 @@
 					</sourceExpression>
 				</AttributeMapping>
 				<AttributeMapping>
-					<targetAttribute>aasg:LeaseNO</targetAttribute>
+					<targetAttribute>aasg:LeaseNo</targetAttribute>
 					<sourceExpression>
 						<OCQL>leaseno</OCQL>
 					</sourceExpression>
@@ -173,7 +176,7 @@
 					</sourceExpression>
 				</AttributeMapping>
 				<AttributeMapping>
-					<targetAttribute>aasg:Function_</targetAttribute>
+					<targetAttribute>aasg:Function</targetAttribute>
 					<sourceExpression>
 						<OCQL>function_</OCQL>
 					</sourceExpression>

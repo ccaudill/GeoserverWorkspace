@@ -7,7 +7,8 @@
   </workspace>
   <connectionParameters>
     <entry key="dbtype">app-schema</entry>
-    <entry key="url">file:workspaces/aasg/azboreholetemperatures/BoreholeTemperature2.xml</entry>
+    <entry key="url">file:workspaces/aasg/azboreholetemperatures/NewBoreholeTemperature.xml</entry>
     <entry key="namespace">http://stategeothermaldata.org/uri-gin/aasg/xmlschema/boreholetemperature/1.5</entry>
   </connectionParameters>
+  <__default>false</__default>
 </dataStore>
