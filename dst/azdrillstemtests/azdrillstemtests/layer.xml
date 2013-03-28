@@ -1,12 +1,12 @@
 <layer>
-  <name>BoreholeTemperature</name>
-  <id>LayerInfoImpl--462fed0e:13da3232496:-7ffc</id>
+  <name>azdrillstemtests</name>
+  <id>LayerInfoImpl-3c8a71c7:13db18e04e0:-7ffc</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--462fed0e:13da3232496:-7ffd</id>
+    <id>FeatureTypeInfoImpl-3c8a71c7:13db18e04e0:-7ffd</id>
   </resource>
   <enabled>true</enabled>
   <metadata>

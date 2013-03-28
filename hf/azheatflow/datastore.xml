@@ -1,0 +1,14 @@
+<dataStore>
+  <id>DataStoreInfoImpl--62ec4e9f:13db25ff801:-7ffe</id>
+  <name>azheatflow</name>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--62ec4e9f:13db25ff801:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="dbtype">app-schema</entry>
+    <entry key="url">file:workspaces/hf/azheatflow/HeatFlow.xml</entry>
+    <entry key="namespace">http://stategeothermaldata.org/uri-gin/aasg/xmlschema/heatflow/1.23</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

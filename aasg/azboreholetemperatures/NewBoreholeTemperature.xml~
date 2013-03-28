@@ -61,11 +61,8 @@
 				<AttributeMapping>
 					<targetAttribute>aasg:BoreholeTemperature</targetAttribute>
 				<idExpression>
-						<OCQL>strConcat('BT', OBJECTID)</OCQL>
+						<OCQL>Concatenate('BT',OBJECTID)</OCQL>
 					</idExpression>  
-			<!--		<sourceExpression>
-						<OCQL>objectid</OCQL>
-					</sourceExpression>  -->
 				</AttributeMapping>
 				<AttributeMapping>
 					<targetAttribute>aasg:ObservationURI</targetAttribute>

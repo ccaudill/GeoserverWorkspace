@@ -63,9 +63,6 @@
 				<idExpression>
 						<OCQL>getId()</OCQL>
 					</idExpression>  
-			<!--		<sourceExpression>
-						<OCQL>objectid</OCQL>
-					</sourceExpression>  -->
 				</AttributeMapping>
 				<AttributeMapping>
 					<targetAttribute>aasg:ObservationURI</targetAttribute>

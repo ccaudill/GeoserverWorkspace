@@ -1,9 +1,9 @@
 <dataStore>
-  <id>DataStoreInfoImpl-52b45d61:13c878efb90:-7ffe</id>
+  <id>DataStoreInfoImpl--462fed0e:13da3232496:-8000</id>
   <name>azboreholetemperatures</name>
   <enabled>true</enabled>
   <workspace>
-    <id>WorkspaceInfoImpl-52b45d61:13c878efb90:-8000</id>
+    <id>WorkspaceInfoImpl--4a459fcb:13da2fa44a7:-8000</id>
   </workspace>
   <connectionParameters>
     <entry key="dbtype">app-schema</entry>
