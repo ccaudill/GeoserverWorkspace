@@ -1,0 +1,23 @@
+<settings>
+  <workspace>
+    <id>WorkspaceInfoImpl-63ba3152:13e8549399e:-7ff9</id>
+    <name>HeatFlow</name>
+  </workspace>
+  <contact>
+    <id>contact</id>
+    <addressCity>Tucson</addressCity>
+    <addressCountry>USA</addressCountry>
+    <addressPostalCode>85739</addressPostalCode>
+    <addressState>AZ</addressState>
+    <addressType>Work</addressType>
+    <contactEmail>metadat@usgin.org</contactEmail>
+    <contactOrganization>AZGS</contactOrganization>
+    <contactPerson>Geoinformatics Testing</contactPerson>
+    <contactPosition>Geoinformatics</contactPosition>
+  </contact>
+  <charset>UTF-8</charset>
+  <numDecimals>8</numDecimals>
+  <onlineResource>http://opengeo.org</onlineResource>
+  <verbose>false</verbose>
+  <verboseExceptions>false</verboseExceptions>
+</settings>
